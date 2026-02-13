@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class MultipleCatch {
     
+        public static void main(String[] args) {
                 Scanner sc = new Scanner(System.in);
                 int n = sc.nextInt();
                 int[] arr= new int[n];
@@ -18,8 +19,9 @@ public class MultipleCatch {
                 catch(ArithmeticException ex){
                         System.out.println("Divide by zero error");
                 }
-                catch (IndexOutOfBoundsException ex){
+                catch (IndexOutOfBoundsException e){
                         System.out.println("Invalid Index");
                 }
         }
 }
+
