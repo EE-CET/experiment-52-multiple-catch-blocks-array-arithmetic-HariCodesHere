@@ -18,7 +18,7 @@ public class MultipleCatch {
                 catch(ArithmeticException ex){
                         System.out.println("Divide by zero error");
                 }
-                catch (IndexOutOfBoundsException e){
+                catch (IndexOutOfBoundsException ex){
                         System.out.println("Invalid Index");
                 }
         }
